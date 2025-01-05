@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+    background:black;
+    color: white;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3%;
+}
+
+h1{
+    text-align: center;
+}
+
+#resultRow{
+    border:1px solid white;
+    width:50vw;
+}
+
+#wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numButton{
+    color:white;
+    background:orange;
+    height:50px;
+    width:50px;
+    font-size: 16px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+
+.numRow{
+    margin-bottom: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+#mainBody{
+    border: 2px solid white;
+    padding: 20px;
+    height:45vh;
+    width:40vh;
+    border-radius: 10%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#fourthRow div{
+    display: flex;
+    justify-content: center;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+}
+
+#operatorRow{
+    display: flex;
+    flex-direction: column;
+}
+
+#operatorButton{
+    margin-bottom: 20px;
+}
